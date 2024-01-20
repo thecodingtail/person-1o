@@ -1,9 +1,21 @@
 .gridSuper {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
+  gap: 10px;
 }
 
 p {
   background: blue;
+}
+
+html {
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+  grid-template-rows: repeat(3 1vh);
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
 }
